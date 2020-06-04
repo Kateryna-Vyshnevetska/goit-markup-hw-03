@@ -1,0 +1,50 @@
+/* All colors */
+
+/* 
+  --primary-text-color: #757575;
+  --title-text-color:#212121;
+  --accent-color:#2196F3;
+  --primary-white-color: #FFFFFF;
+  --bgc-team-section: #F5F4FA;
+  --bgc-work-section: rgba(47, 48, 58, 0.8); */
+
+
+/* Buttons style */
+/* ....... */
+
+
+/* Portfolio Section */
+
+.section-title{
+  display: none;
+}
+
+.portfolio .link{
+  text-decoration: none;
+}
+
+.portfolio .title{
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+
+}
+
+.portfolio .category{
+  color:var(--primary-text-color);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+}
+
+.portfolio .description{
+  background-color: teal;
+  color: var(--primary-white-color);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.5;
+  letter-spacing: 0.03em;
+}
