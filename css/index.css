@@ -1,30 +1,44 @@
 /* Styles for index.html */
 
-
 /* Hero */
+.hero{
+  text-align: center;
+}
+
 .hero-title{
-  background-color: teal;
+  margin-top: 0;
+  margin-bottom: 30px;
+
+  background-color: tomato;
   color: var(--primary-white-color);
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
 }
 
 /* Button */
 .button{
+  margin-top: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+  text-align: center;
+  border-radius: 4px;
   color: var(--title-text-color);
   background-color: var(--primary-white-color);
   font-weight: bold;
   font-size: 16px;
   line-height: 1.8;
+  margin-left: auto;
+
 }
 
 .button.primary{
   color: var(--primary-white-color);
   background-color: var(--accent-color);
+  min-width: 200px;
+  padding: 10px 32px;
 }
 
 /* .button.secondary{
@@ -36,6 +50,8 @@
 /* Sections */
 
 .section-title{
+  margin-top: 0;
+  margin-bottom: 50px;
   color: var(--title-text-color);
   font-weight: 700;
   font-size: 36px;
@@ -44,7 +60,10 @@
 }
 
 /* Future Section */
+
 .feature-list .title{
+  margin-top: 30px;
+  margin-bottom: 10px;
   color: var(--title-text-color);
   font-weight: 700;
   font-size: 14px;
@@ -53,6 +72,8 @@
 }
 
 .feature-list .text{
+  margin-top: 0px;
+  margin-bottom: 0px;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
@@ -75,6 +96,8 @@
 }
 
 .team-list .title{
+  margin-top: 30px;
+  margin-bottom: 10px;
   color: var(--title-text-color);
   font-weight: 500;
   font-size: 16px;
@@ -83,6 +106,8 @@
 }
 
 .team-list .profession{
+  margin-top: 0;
+  margin-bottom: 16px;
   font-size: 16px;
   line-height: 1.18;
   text-align: center;

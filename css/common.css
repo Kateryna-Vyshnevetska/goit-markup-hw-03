@@ -40,6 +40,8 @@ img{
 
 .list{
   list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 /* Navigation Style*/
@@ -51,6 +53,7 @@ img{
   font-family: 'Raleway', sans-serif;
   font-size: 14px;
   line-height: 1.14;
+  display: inline-block;
 }
 
 .logo:hover,
@@ -62,6 +65,20 @@ img{
   color: var(--accent-color);
 }
 
+/* Page Header */
+.container{
+  margin-left: auto;
+  margin-right: auto;
+  width: 1440px;
+  outline: 2px solid green;
+}
+
+.header-container{
+  width: 1170px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
 /* Menu */
 .site-nav .link{
   color: var(--title-text-color);
@@ -69,6 +86,10 @@ img{
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
+}
+
+.auth-site .link{
+  display: inline-block;
 }
 
 .site-nav .link.current{
