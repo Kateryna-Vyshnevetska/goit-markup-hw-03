@@ -106,6 +106,10 @@ img{
 }
 
 /* Page Header */
+.header {
+  border-bottom: 1px solid #ECECEC;
+}
+
 .container{
   padding-top: 94px;
   padding-bottom: 94px;
@@ -218,6 +222,10 @@ img{
   color: var(--primary-white-color)
 }
 
+.address-info {
+  margin-right: 69px;
+}
+
 .address-info .contacts {
   font-size: 14px;
   text-decoration: none;
@@ -232,7 +240,7 @@ img{
   color: var(--bgc-social-links);
 }
 
-.join b {
+.join .join-us {
   margin-bottom: 20px;
   text-transform: uppercase;
   color: var(--primary-white-color)
