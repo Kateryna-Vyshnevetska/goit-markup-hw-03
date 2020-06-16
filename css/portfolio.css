@@ -19,6 +19,35 @@
   display: none;
 }
 
+.portfolio-nav {
+  display: flex;
+  align-items: center;
+}
+
+.portfolio-nav .item +.item {
+  margin-left: 8px;
+}
+
+.portfolio-menu {
+  margin-bottom: 50px;
+  width: 642px;
+}
+
+.portfolio {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.portfolio .item {
+  margin-right: 30px;
+  margin-bottom: 30px;
+  /* border: 1px solid #EEEEEE;
+  box-sizing: border-box; */
+}
+
+.portfolio .item:nth-child(3n) {
+  margin: 0 0;
+}
 .portfolio .link{
   text-decoration: none;
 }
@@ -27,9 +56,12 @@
   color: var(--title-text-color);
   font-weight: 700;
   font-size: 18px;
+
   line-height: 2;
   letter-spacing: 0.06em;
 
+  margin-top: 20px;
+  margin-bottom: 8px;
 }
 
 .portfolio .category{
@@ -38,6 +70,8 @@
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
+  margin-top: 0px;
+  margin-bottom: 20px;
 }
 
 .portfolio .description{
