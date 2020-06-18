@@ -43,24 +43,18 @@
   </header>
 
   <main>
-
-    <!-- Order service section -->
-    <!-- <section class="hero">
-        <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
-        <a class="button primary" href="">Заказать услугу</a>
-    </section>
-    -->
+    
   <section class="hero">
     <div class="container">
-      <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
-      <a class="button primary" href="">Заказать услугу</a>
+      <div class="hero-content">
+        <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
+        <a class="button primary" href="">Заказать услугу</a>
+      </div>
     </div>
   </section>
 
-
    <!-- Future section -->
-   <section class="section">
-
+   <section class="future">
       <!-- h2 will be hidden in css -->
       <div class="container">
         <h2 class="section-title is-hidden">Our skills</h2> 
@@ -98,7 +92,7 @@
    </section>
    
    <!-- Our work section-->
-    <section class="section">
+    <section class="work">
       <div class="container">
         <h2 class="section-title">Чем мы занимаемся</h2>
   
@@ -122,7 +116,7 @@
     </section>
    
    <!-- Our team section-->
-    <section class="section team">
+    <section class="team">
        <div class="container">
         <h2 class="section-title">Наша команда</h2>
    
@@ -240,7 +234,7 @@
     </section>
    
    <!-- Regular customers section-->
-    <section class="section customers">
+    <section class="customers">
       <div class="container">
         <h2 class="section-title">Постоянные клиенты</h2>
    
@@ -280,25 +274,27 @@
     </section>
    </main>
 
-   
    <!-- Footer -->
    <footer class="footer">
       <!-- address -->
-      <div class="container flex-footer">
-        <section class="address-info">
+      <div class="container">
+        <div class="address-info">
+
           <a class="logo" href="./index.html"> <span class="part-logo">Web </span>Studio</a>
-          <address class="contacts">
-            г. Киев, пр-т Леси Украинки, 26<br>
-            <a class="link" href="mailto:info@example.com">info@example.com</a><br>
-            <a class="link" href="tel:+380991111111">+38 099 111 11 11</a><br>
+          
+          <address>
+            <ul class="contacts list">
+              <li class="item"><p class="localization">г. Киев, пр-т Леси Украинки, 26</p></li>
+              <li class="item"><a class="link" href="mailto:info@example.com">info@example.com</a></li>
+              <li class="item"><a class="link" href="tel:+380991111111">+38 099 111 11 11</a></li>
+            </ul>            
           </address>
 
-
-        </section>
+        </div>
  
       <!-- Join us -->
-        <section class="join">
-          <b>присоединяйтесь</b>
+        <div class="join-us">
+          <b class="join">присоединяйтесь</b>
           <ul class="social-links list">
             <li class="item">
               <a class="link" href="" aria-label="Instagram link">
@@ -321,7 +317,7 @@
               </a>
             </li>
           </ul>
-        </section>
+        </div>
       </div>
 <!-- 
      Subscribe
@@ -334,7 +330,6 @@
        </a>
      </div> -->
 
-     <p class="copywrite">2020 | Developed by GoIT students</p>
    </footer>
 </body>
 </html>

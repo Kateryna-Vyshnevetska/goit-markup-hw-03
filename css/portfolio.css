@@ -8,9 +8,9 @@
   --bgc-team-section: #F5F4FA;
   --bgc-work-section: rgba(47, 48, 58, 0.8); */
 
-
-/* Buttons style */
-/* ....... */
+  .header {
+    margin-bottom: 94px;
+  }
 
 
 /* Portfolio Section */
@@ -29,7 +29,7 @@
 }
 
 .portfolio-menu {
-  padding-bottom: 50px;
+  margin-bottom: 34px;
   width: 642px;
 }
 
@@ -38,47 +38,55 @@
   flex-wrap: wrap;
 }
 
+/* .................................... */
+.card-content {
+  padding:20px 24px;
+  border: 1px solid #EEEEEE;
+}
+
 .portfolio .item {
   margin-right: 30px;
   margin-bottom: 30px;
-  /* border: 1px solid #EEEEEE;
-  box-sizing: border-box; */
 }
 
 .portfolio .item:nth-child(3n) {
   margin: 0 0;
 }
-.portfolio .link{
+
+.portfolio .link {
+  display: block;
   text-decoration: none;
 }
 
 .portfolio .title{
+  margin-top: 0px;
+  margin-bottom: 8px;
+  display: block;
+
   color: var(--title-text-color);
   font-weight: 700;
   font-size: 18px;
-
   line-height: 2;
   letter-spacing: 0.06em;
-
-  margin-top: 20px;
-  margin-bottom: 8px;
 }
 
 .portfolio .category{
+  margin-top: 0;
+  margin-bottom: 0;
+
+  display: block;
   color:var(--primary-text-color);
   font-weight: 400;
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
-  margin-top: 0px;
-  margin-bottom: 20px;
 }
 
-.portfolio .description{
+/* .portfolio .description{
   background-color: teal;
   color: var(--primary-white-color);
   font-weight: 400;
   font-size: 18px;
   line-height: 1.5;
   letter-spacing: 0.03em;
-}
+} */
